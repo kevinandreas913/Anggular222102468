@@ -5,12 +5,12 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from '../footer/footer.component';
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'app-dashboard2',
   standalone: true,
   imports: [HeaderComponent, SidebarComponent, FooterComponent ,RouterModule],
-  templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.css'
+  templateUrl: './dashboard2.component.html',
+  styleUrl: './dashboard2.component.css'
 })
-export class DashboardComponent {
+export class Dashboard2Component {
 
 }
