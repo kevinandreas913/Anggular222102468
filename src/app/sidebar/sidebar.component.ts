@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 export class SidebarComponent {
   @Input() moduleName: string = "";
 
+  
 
 }
 

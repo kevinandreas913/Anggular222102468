@@ -9,6 +9,9 @@ import { RouterModule } from '@angular/router';
   styleUrl: './login.component.css'
 })
 export class LoginComponent{
+  email = 'kevin@mail.com';
+  password = '12345567';
+
   constructor(private renderer: Renderer2){
     this.renderer.addClass(document.body, "login-page");
 
